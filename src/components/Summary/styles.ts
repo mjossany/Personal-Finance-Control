@@ -12,6 +12,11 @@ export const Container = styled.div`
     border-radius: 0.25rem;
     color: var(--text-title);
 
+    &:last-child {
+      background: var(--green);
+      color: var(--shape);
+    }
+
     header {
       display: flex;
       align-items: center;
