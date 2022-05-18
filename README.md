@@ -1,6 +1,6 @@
 # Save Me!
 
-Save Me! is a personal finance controller application.
+Save Me! is a personal finance manager application.
 
 This is a project from [https://www.rocketseat.com.br/](Rocketseat) React Path.
 
