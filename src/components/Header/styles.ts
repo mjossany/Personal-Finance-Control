@@ -29,3 +29,12 @@ export const Content = styled.div`
     }
   }
 `;
+
+export const LogoAndTitle = styled.div`
+  display: flex;
+
+  h1 {
+    color: var(--shape);
+    margin-left: 1.1rem;
+  }
+`
