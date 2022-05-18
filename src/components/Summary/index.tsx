@@ -31,9 +31,9 @@ export function Summary () {
           <img src={incomeImg} alt="Incomes" />
         </header>
         <strong>
-          {new Intl.NumberFormat('pt-BR', {
+          {new Intl.NumberFormat('en-US', {
             style: 'currency',
-            currency: 'BRL'
+            currency: 'USD'
           }).format(summary.incomes)}
         </strong>
       </div>
@@ -43,9 +43,9 @@ export function Summary () {
           <img src={outcomeImg} alt="Outcomes" />
         </header>
         <strong>
-          {new Intl.NumberFormat('pt-BR', {
+          {new Intl.NumberFormat('en-US', {
             style: 'currency',
-            currency: 'BRL'
+            currency: 'USD'
           }).format(summary.outcomes)}
         </strong>
       </div>
@@ -55,9 +55,9 @@ export function Summary () {
           <img src={totalImg} alt="Total" />
         </header>
         <strong>
-          {new Intl.NumberFormat('pt-BR', {
+          {new Intl.NumberFormat('en-US', {
             style: 'currency',
-            currency: 'BRL'
+            currency: 'USD'
           }).format(summary.total)}
         </strong>
       </div>

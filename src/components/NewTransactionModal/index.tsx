@@ -53,7 +53,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
         <img src={closeImg} alt="Close Modal" />
       </button>
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastrar transação</h2>
+        <h2>Register New Transaction</h2>
 
         <input 
           placeholder='Title'
@@ -91,7 +91,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
           onChange={event => setCategory(event.target.value)}
         />
         <button type="submit">
-          Cadastrar
+          Register
         </button>
       </Container>
     </Modal>
